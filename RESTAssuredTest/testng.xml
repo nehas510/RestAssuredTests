@@ -12,6 +12,7 @@
       <class name="TestFramework.basics7"/>
       <class name="TestFramework.basics6"/>
       <class name="TestFramework.basics5"/>
+      <class name="TestFramework.sampleAPITestOlx"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -15,14 +15,7 @@ import io.restassured.response.Response;
 public class basics8 extends basics7{
 	Properties prop=new Properties();
 	@BeforeTest
-	public void getData() throws IOException
-	{
-		
-		FileInputStream fis=new FileInputStream("C:\\Users\\rahul\\workspace\\DemoProject\\src\\files\\env.properties");
-		prop.load(fis);
-		
-		//prop.get("HOST");
-	}
+	
 	@Test
 	public void JiraAPIUpdate()
 	{
