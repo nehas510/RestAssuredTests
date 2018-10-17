@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3493" started-at="2018-10-15T19:55:06Z" finished-at="2018-10-15T19:55:09Z">
+  <suite name="Default suite" duration-ms="4087" started-at="2018-10-17T13:52:38Z" finished-at="2018-10-17T13:52:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3493" started-at="2018-10-15T19:55:06Z" finished-at="2018-10-15T19:55:09Z">
-      <class name="TestFramework.sampleApiTestOlxRepo">
-        <test-method status="PASS" signature="testGetNamesAPIOlxRepo()[pri:0, instance:TestFramework.sampleApiTestOlxRepo@6d4b1c02]" name="testGetNamesAPIOlxRepo" duration-ms="3477" started-at="2018-10-15T19:55:06Z" finished-at="2018-10-15T19:55:09Z">
+    <test name="Default test" duration-ms="4087" started-at="2018-10-17T13:52:38Z" finished-at="2018-10-17T13:52:42Z">
+      <class name="TestFramework.sampleApiTestOlx">
+        <test-method status="PASS" signature="getIDAPIOlx()[pri:0, instance:TestFramework.sampleApiTestOlx@42e26948]" name="getIDAPIOlx" duration-ms="4066" started-at="2018-10-17T13:52:38Z" finished-at="2018-10-17T13:52:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetNamesAPIOlxRepo -->
-      </class> <!-- TestFramework.sampleApiTestOlxRepo -->
+        </test-method> <!-- getIDAPIOlx -->
+      </class> <!-- TestFramework.sampleApiTestOlx -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

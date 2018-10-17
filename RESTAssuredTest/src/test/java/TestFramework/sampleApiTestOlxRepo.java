@@ -3,6 +3,7 @@ package TestFramework;
 import static io.restassured.RestAssured.given;
 
 import java.util.List;
+import java.util.Map;
 
 import org.testng.annotations.Test;
 
@@ -25,7 +26,7 @@ public class sampleApiTestOlxRepo {
 		// JsonPath js= ReusableMethods.rawToJson(resp);
 		   
 		   List<String> jsonResponse = resp.jsonPath().getList("$");
-	        System.out.println(jsonResponse.size());
+	        System.out.println(" The Size is :" + jsonResponse.size());
 	        
 		  		
 	}
@@ -41,8 +42,11 @@ public class sampleApiTestOlxRepo {
 		get("/users/dubizzle/repos").then().statusCode(200).extract().response();
 		   
 		   List<String> jsonResponse = resp.jsonPath().getList("$");	        
-	        String name = resp.jsonPath().getString("name");
-	        System.out.println(name);
+	       String name = resp.jsonPath().getString("name");
+	       System.out.println("name");
+	            
 		  		
 	}
+	
+	
 }
